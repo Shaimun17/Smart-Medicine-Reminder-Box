@@ -1,0 +1,25 @@
+﻿{
+    "configurations": [
+        {
+            "name": "Arduino",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/lib"
+            ],
+            "defines": [
+                "ARDUINO=100",
+                "__AVR__",
+                "__AVR_ATmega328P__",
+                "F_CPU=16000000L"
+            ],
+            "compilerPath": "C:\\MinGW\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "windows-gcc-x86",
+            "forcedInclude": [
+                "${workspaceFolder}/lib/Arduino.h"
+            ]
+        }
+    ],
+    "version": 4
+}
